@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "tsc": "tsc",
-    "start": "nodemon -r dotenv/config --config \"./nodemon.json\"/"
+    "start": "nodemon --config nodemon.json"
   },
   "dependencies": {
     "express": "^4.17.1"
