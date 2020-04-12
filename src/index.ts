@@ -1,6 +1,5 @@
 import express from 'express';
-
-import { APP_PORT } from './config';
+import { APP_PORT } from 'src/config';
 
 const app: express.Application = express();
 app.get('/', function (req, res) {
